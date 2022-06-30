@@ -1,5 +1,5 @@
-# Dart Basics
+# Flutter Basics
 
-This Repo includes 
- 
-  * Data Types
+This Repo includes notes of
+  * Dart
+  * Flutter
