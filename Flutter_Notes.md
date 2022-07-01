@@ -37,3 +37,18 @@ Widget build(BuildContext context) {
     return Container();
      }
 }
+ 
+ //List a few commonly used widgets in flutter with briefings.
+ ### FLUTTER WIDGET
+ 
+ 1.Text
+Text Widget is used to display text and customize it. Note that, it always display String of text, so to use numbers, you need to convert them into String first. If you want the Text react to touch events, wrap it in a GestureDetector widget with a GestureDetector.onTap handler.
+ 2.Container
+Container is one of the most basic and important widgets. You can use it as a parent widget to customize and set constraints for child widget. The Container widget lets you create a rectangular visual. The container can be decorated with a BoxDecoration, with s a background, frame or shadow. A container can also have margins, padding, and constraints applied to its size. In addition, the Container can be transformed in 3D using a matrix.
+ 3.Row
+If you want to display your widgets horizontally, wrap them inside Row widget. Like column, Row can also take any number of child widget and arrange them according to defined constraints. Their design is based on the flexbox layout model in the WEB.
+ 4.Scaffold
+This widget is needed to draw basic material widgets on the screen. It acts as the background of the app and houses AppBar and BottomNavigatorBar.
+ 5.SafeArea
+SafeArea is used to prevent a widget from interfering with system elements like status bar, notch, bottom iPhone bar.
+ 
